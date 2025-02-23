@@ -12,7 +12,7 @@ function agregarAmigo() {
     listaAmigos.push(nombre);
 
     let listaElement = document.getElementById("listaAmigos");
-    // listaElement.innerHTML = "";
+    listaElement.innerHTML = "";
 
     for (let amigo of listaAmigos) {
         let nuevoElemento = document.createElement("li");
